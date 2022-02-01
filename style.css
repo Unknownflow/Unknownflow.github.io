@@ -1,12 +1,16 @@
 h1 {
-    font-size: 72px;  
+    font-size: 50px; 
 }
 
 h2 {
-    color: #00ff00;
+    color: blue;
 }
 
+h3 {
+    color: red;
+}
 h4.job-title {
+    color: darkcyan;
 }
 
 h2#menu {
@@ -16,12 +20,22 @@ h2#menu {
 }
 
 a {
-    color: purple;
+    color: darkblue;
 }
 
 h2#job {
     color: blue;
 }
+
+li {
+    list-style-type: square;
+}
+
+.main {
+    color: lime;
+    font-weight: bold;
+}
+
 
 /* .navlink {
     color: red;
