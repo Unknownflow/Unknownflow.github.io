@@ -2,33 +2,34 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Unknownflow</title>
+    <title>About Me</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <div class="topnav">
-        <a href="/" class="active">About</a>
-        <a href="experience.html">Experience</a>
+        <a href="index.html">About</a>
+        <a href="experience.html" class="active">Experience</a>
         <a href="education.html">Education</a>
         <a href="projects.html"">Projects</a>
         <a href="skills.html">Skills</a>
     </div>
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div>
-                    <h2>About Me</h2>
-                </div>
-                <div>
-                    <p>
-                        I am Clarence, currently unemployed and a student suffering from Singapore's education system.
-                    </p>
-                </div>
+    
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="unemployed">
+                <h3>Currently unemployed</h3>
+                <h4 class="job-title">Student</h4>
+                <p>
+                    Student studying in Singapore.
+                </p>
             </div>
-        </div>
     </div>
+    <!-- End #experience -->
+    
+</body>
 
 <footer>
     <div class="container">
@@ -53,9 +54,5 @@
         </div>
     </div>
 </footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/scripts.min.js"></script>
-</body>
-
+    
 </html>
