@@ -1,42 +1,60 @@
-h1 {
-    font-size: 50px; 
+/* Add a black background color to the top navigation */
+div.topnav {
+    background-color: #3d3d3d;
+    overflow: hidden;
+    text: white;
+    margin: 0px;
 }
 
-h2 {
-    color: blue;
+
+/* Style the links inside the navigation bar */
+div.topnav a:link, a:visited {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px;
 }
 
-h3 {
-    color: red;
-}
-h4.job-title {
-    color: darkcyan;
+
+/* Change the color of links on hover */
+div.topnav a:hover {
+    background-color: #a9a9a9;
+    color: black;
+    margin: 0px;
 }
 
-h2#menu {
+/* Change the color of links on active */
+div.topnav a.active {
+    background-color: #303030;
+    color: white;
+    margin: 0px;
+}
+
+
+/* Change background colour to black */
+body {
+    background-color: #212121;
+    color: white;
+}
+
+
+/* Change the colour of the links to white */
+links a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Change all of the headers  */
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0 10px;
+    padding: 0;
     font-weight: bold;
-    font-size: 14px;
-    color: purple;
+    -webkit-font-smoothing: antialiased;
+    cursor: text;
+    position: relative;
 }
 
-a {
-    color: darkblue;
-}
-
-h2#job {
-    color: blue;
-}
-
-li {
-    list-style-type: square;
-}
-
-.main {
-    color: lime;
-    font-weight: bold;
-}
-
-
-/* .navlink {
-    color: red;
-} */
