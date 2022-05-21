@@ -2,8 +2,8 @@
 div.topnav {
     background-color: #3d3d3d;
     overflow: hidden;
-    text: white;
-    margin: 0px;
+    color: white;
+    margin-top: 0px;
 }
 
 
@@ -38,6 +38,9 @@ div.topnav a.active {
 body {
     background-color: #212121;
     color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -50,7 +53,7 @@ links a:link, a:visited {
 
 /* Change all of the headers  */
 h1, h2, h3, h4, h5, h6 {
-    margin: 20px 0 10px;
+    margin: 20px 0px 10px 15px;
     padding: 0;
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
@@ -58,3 +61,17 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
+/* Add a left margin of 15px to paragraphs */
+p {
+    margin-left: 15px;
+}
+
+/* Ensure line height of unordered list of 1.8 */
+ul {
+    line-height: 1.8;
+}
+
+/* Ensure footer is always at bottom of the page due to flexbox auto adjust */
+footer{
+    margin-top: auto;
+}
