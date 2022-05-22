@@ -26,6 +26,7 @@ div.topnav a:hover {
     margin: 0px;
 }
 
+
 /* Change the color of links on active */
 div.topnav a.active {
     background-color: #303030;
@@ -47,29 +48,27 @@ body {
 
 
 /* Change the colour of the links to white */
-a:link {
-    color: #00ff00;
-    text-decoration: none;
-}
-
-a:visited {
+a:visited, a:link {
     color: white;
     text-decoration: none;
 }
+
 
 a:hover {
     color: #00ffff;
     text-decoration: none;
 }
 
+
 a:active {
     color: yellow;
     text-decoration: none;
 }
 
+
 /* Change all of the headers  */
 h1, h2, h3, h4, h5, h6 {
-    margin: 20px 0px 10px 15px;
+    margin: 20px 0px 15px 15px;
     padding: 0;
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
@@ -77,15 +76,18 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
+
 /* Add a left margin of 15px to paragraphs */
 p {
     margin-left: 15px;
 }
 
+
 /* Ensure line height of unordered list of 1.8 */
 ul {
     line-height: 1.8;
 }
+
 
 /* Ensure footer is always at bottom of the page due to flexbox auto adjust */
 footer{
@@ -93,6 +95,7 @@ footer{
     background: #3d3d3d;
     height: auto;
 }
+
 
 /* align fotter to be in the center */
 .footer-content{
@@ -103,6 +106,7 @@ footer{
     text-align: center;
 }
 
+
 /* align footer h3 to be in center and its text */
 .footer-content h3{
     color: cyan;
@@ -111,14 +115,15 @@ footer{
     text-transform: capitalize;
     padding: 0; 
     margin-left: 5px;
-    /* margin-left: 0; */
 }
+
 
 /* adjust footer para size */
 .footer-content p{
-    margin: 10px 0px 20px 0px;
-    font-size: 14px;
+    margin: 8px 0px 20px 0px;
+    font-size: 16px;
 }
+
 
 /* add socials to footer */
 .socials{
@@ -129,6 +134,7 @@ footer{
     margin: auto;
 }
 
+
 /* adjust list of socials */
 .socials ul{
     padding: 0; /* Remove padding */
@@ -137,8 +143,40 @@ footer{
     overflow: hidden;
 }
 
+
 /* ensure list of socials are in straight line */
 .socials li {
     display: inline;
     text-decoration: none;
+}
+
+
+/* bold the links in socials */
+.socials a {
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* about.html lists */
+li.about {
+    list-style-type: none;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+
+/* ensure link are bolded in projects.html */
+.project-info a {
+    font-weight: bold;
+}
+
+
+/* add background to about.html */
+.background {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #212121;
 }
