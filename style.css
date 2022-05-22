@@ -41,6 +41,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -74,4 +76,54 @@ ul {
 /* Ensure footer is always at bottom of the page due to flexbox auto adjust */
 footer{
     margin-top: auto;
+    background: #3d3d3d;
+    height: auto;
+}
+
+/* align fotter to be in the center */
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* align footer h3 to be in center and its text */
+.footer-content h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 0; 
+    margin-left: 5px;
+    /* margin-left: 0; */
+}
+
+/* adjust footer para size */
+.footer-content p{
+    margin: 10px 0px 20px 0px;
+    font-size: 14px;
+}
+
+/* add socials to footer */
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* adjust list of socials */
+.socials ul{
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    list-style-type: none;
+    overflow: hidden;
+}
+
+/* ensure list of socials are in straight line */
+.socials li {
+    display: inline;
+    text-decoration: none;
 }
