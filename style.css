@@ -47,11 +47,25 @@ body {
 
 
 /* Change the colour of the links to white */
-links a:link, a:visited {
+a:link {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+a:visited {
     color: white;
     text-decoration: none;
 }
 
+a:hover {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    text-decoration: none;
+}
 
 /* Change all of the headers  */
 h1, h2, h3, h4, h5, h6 {
@@ -91,6 +105,7 @@ footer{
 
 /* align footer h3 to be in center and its text */
 .footer-content h3{
+    color: cyan;
     font-size: 18px;
     font-weight: bold;
     text-transform: capitalize;
