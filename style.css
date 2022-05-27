@@ -131,6 +131,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 24px;
     margin: auto;
 }
 
@@ -147,6 +148,7 @@ footer{
 /* ensure list of socials are in straight line */
 .socials li {
     display: inline;
+    margin-left: 10px; /*add margin between icons*/
     text-decoration: none;
 }
 
@@ -180,3 +182,4 @@ li.about {
     background-position: center;
     background-color: #212121;
 }
+
