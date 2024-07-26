@@ -1,185 +1,35 @@
-/* Add a black background color to the top navigation */
-div.topnav {
-    background-color: #3d3d3d;
-    overflow: hidden;
-    color: white;
-    margin-top: 0px;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-
-/* Style the links inside the navigation bar */
-div.topnav a:link, a:visited {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 0px;
-}
-
-
-/* Change the color of links on hover */
-div.topnav a:hover {
-    background-color: #a9a9a9;
-    color: black;
-    margin: 0px;
-}
-
-
-/* Change the color of links on active */
-div.topnav a.active {
-    background-color: #303030;
-    color: white;
-    margin: 0px;
-}
-
-
-/* Change background colour to black */
+html,
 body {
-    background-color: #212121;
-    color: white;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
+	height: 100%;
 }
 
-
-/* Change the colour of the links to white */
-a:visited, a:link {
-    color: white;
-    text-decoration: none;
+body {
+	color: #333;
+	background-color: #ede8f5;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
-
-a:hover {
-    color: #00ffff;
-    text-decoration: none;
+main {
+	flex: 1 0 auto;
+	padding: 20px 30px;
 }
 
-
-a:active {
-    color: yellow;
-    text-decoration: none;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 10px 0;
 }
 
-
-/* Change all of the headers  */
-h1, h2, h3, h4, h5, h6 {
-    margin: 20px 0px 15px 15px;
-    padding: 0;
-    font-weight: bold;
-    -webkit-font-smoothing: antialiased;
-    cursor: text;
-    position: relative;
+li {
+	margin-left: 25px;
 }
-
-
-/* Add a left margin of 15px to paragraphs */
-p {
-    margin-left: 15px;
-}
-
-
-/* Ensure line height of unordered list of 1.8 */
-ul {
-    line-height: 1.8;
-}
-
-
-/* Ensure footer is always at bottom of the page due to flexbox auto adjust */
-footer{
-    margin-top: auto;
-    background: #3d3d3d;
-    height: auto;
-}
-
-
-/* align fotter to be in the center */
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-
-/* align footer h3 to be in center and its text */
-.footer-content h3{
-    color: cyan;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: capitalize;
-    padding: 0; 
-    margin-left: 5px;
-}
-
-
-/* adjust footer para size */
-.footer-content p{
-    margin: 8px 0px 20px 0px;
-    font-size: 16px;
-}
-
-
-/* add socials to footer */
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    margin: auto;
-}
-
-
-/* adjust list of socials */
-.socials ul{
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-    list-style-type: none;
-    overflow: hidden;
-}
-
-
-/* ensure list of socials are in straight line */
-.socials li {
-    display: inline;
-    margin-left: 10px; /*add margin between icons*/
-    text-decoration: none;
-}
-
-
-/* bold the links in socials */
-.socials a {
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-/* about.html lists */
-li.about {
-    list-style-type: none;
-    margin-left: 15px;
-    margin-bottom: 10px;
-}
-
-
-/* ensure link are bolded in projects.html */
-.project-info a {
-    font-weight: bold;
-}
-
-
-/* add background to about.html */
-.background {
-    background-image: url("images/background.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: #212121;
-}
-

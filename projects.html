@@ -1,100 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
-		<title>Projects</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link
 			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+			integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
 			crossorigin="anonymous"
 		/>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script
+			src="components/header.js"
+			type="text/javascript"
+			defer
+		></script>
+		<script
+			src="components/footer.js"
+			type="text/javascript"
+			defer
+		></script>
 	</head>
 
 	<body>
 		<!-- Navigation bar -->
-		<div class="topnav">
-			<a href="index.html">Unknownflow</a>
-			<a href="about.html">About</a>
-			<a href="experience.html">Experience</a>
-			<a href="education.html">Education</a>
-			<a href="projects.html" class="active">Projects</a>
-			<a href="skills.html">Skills</a>
-		</div>
-
-		<div id="projects" class="background-alt">
-			<h2 class="heading">Projects</h2>
-			<div class="container">
-				<div class="row">
-					<div class="project-info">
-						<h3>Capstone Project (2022)</h3>
-						<h4>Details: Completed</h4>
-						<p>
-							Project task: Create a CCA record updating system
-							for our school to store the achievements and
-							particpation records of the students in the school.
-						</p>
-						<p>
-							This is the
-							<a
-								target="_blank"
-								href="https://github.com/Unknownflow/Capstone-Project"
-								>Github link</a
-							>
-							to the capstone project.
-						</p>
+		<header-component></header-component>
+		<main>
+			<div id="projects" class="background-alt">
+				<h2 class="heading">Projects</h2>
+				<div class="container">
+					<div class="row">
+						<div class="project-info">
+							<h3>Capstone Project (2022)</h3>
+							<h4>Details: Completed</h4>
+							<p>
+								Project task: Create a CCA record updating
+								system for our school to store the achievements
+								and particpation records of the students in the
+								school.
+							</p>
+							<p>
+								This is the
+								<a
+									target="_blank"
+									href="https://github.com/Unknownflow/Capstone-Project"
+									>Github link</a
+								>
+								to the capstone project.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</main>
+		<footer-component></footer-component>
 	</body>
-
-	<footer>
-		<div class="footer-content">
-			<h3>Unknownflow</h3>
-			<p>
-				If you have any questions, or just want to say hello, feel free
-				to contact me. Below are my social pages:
-			</p>
-			<div class="socials">
-				<ul>
-					<li>
-						<a href="https://github.com/Unknownflow" target="_blank"
-							><i class="fab fa-github" aria-hidden="true"></i
-						></a>
-					</li>
-					<li>
-						<a
-							href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-							target="_blank"
-							><i class="fab fa-discord" aria-hidden="true"></i
-						></a>
-					</li>
-					<li>
-						<a
-							href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-							target="_blank"
-							><i class="fab fa-instagram" aria-hidden="true"></i
-						></a>
-					</li>
-					<li>
-						<a
-							href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-							target="_blank"
-							><i class="fab fa-linkedin" aria-hidden="true"></i
-						></a>
-					</li>
-					<li>
-						<a
-							href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-							target="_blank"
-							><i class="fab fa-google" aria-hidden="true"></i
-						></a>
-					</li>
-				</ul>
-			</div>
-			<p>Copyright &copy; 2022 Unknownflow</p>
-		</div>
-	</footer>
 </html>

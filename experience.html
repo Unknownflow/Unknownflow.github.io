@@ -1,73 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Experience</title>
-        <link 
-            rel="stylesheet" 
-            type="text/css" 
-            href="style.css"
-        />
-        <link 
-            rel="stylesheet" 
-            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
-            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
-            crossorigin="anonymous"
-        />
-    </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+			integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+			crossorigin="anonymous"
+		/>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script
+			src="components/header.js"
+			type="text/javascript"
+			defer
+		></script>
+		<script
+			src="components/footer.js"
+			type="text/javascript"
+			defer
+		></script>
+		<script
+			src="components/experiences.js"
+			type="text/javascript"
+			defer
+		></script>
+	</head>
 
-    <body>
-        <!-- Navigation bar -->
-        <div class="topnav">
-            <a href="index.html">Unknownflow</a>
-            <a href="about.html">About</a>
-            <a href="experience.html" class="active">Experience</a>
-            <a href="education.html">Education</a>
-            <a href="projects.html"">Projects</a>
-            <a href="skills.html">Skills</a>
-        </div>
-
-        
-        <div id="experience" class="background-alt">
-            <h2 class="heading">Experience</h2>
-            <div id="experience-timeline">
-                <div data-date="unemployed">
-                    <h3>Currently unemployed</h3>
-                    <h4 class="job-title">Working as a Student</h4>
-                    <p>Student studying in Singapore.</p>
-                </div>
-            </div>
-        </div>
-        
-    </body>
-
-    <footer>
-        <div class="footer-content">
-            <h3>Unknownflow</h3>
-            <p>
-                If you have any questions, or just want to say hello, feel free to contact me. Below are my social pages: 
-            </p>
-            <div class="socials">
-                <ul>
-                    <li>
-                        <a href="https://github.com/Unknownflow" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-google" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <p>Copyright &copy; 2022 Unknownflow</p>
-        </div>
-    </footer>
-    
+	<body>
+		<!-- Navigation bar -->
+		<header-component></header-component>
+		<main>
+			<div id="work"></div>
+			<div id="education"></div>
+			<div id="volunteer"></div>
+		</main>
+		<footer-component></footer-component>
+	</body>
 </html>
