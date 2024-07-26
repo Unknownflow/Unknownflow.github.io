@@ -1,5 +1,5 @@
-function experiences() {
-	const education = [
+function education() {
+	const educationArr = [
 		{
 			school: "Nanyang Junior College",
 			subjects:
@@ -39,7 +39,7 @@ function experiences() {
 	h1.innerHTML = "Education";
 	educationDoc.appendChild(h1);
 
-	for (var item of education) {
+	for (var item of educationArr) {
 		// school as h2
 		const h2 = document.createElement("h2");
 		h2.innerHTML = item["school"];
@@ -82,4 +82,4 @@ function experiences() {
 	return educationDoc;
 }
 
-experiences();
+education();
