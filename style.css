@@ -9,6 +9,10 @@ body {
 	height: 100%;
 }
 
+html {
+	min-height: 100%;
+}
+
 body {
 	color: #333;
 	background-color: #ede8f5;
